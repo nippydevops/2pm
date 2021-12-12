@@ -4,6 +4,7 @@ resource "aws_instance" "myfirst" {
      instance_type = "t2.micro"
      tags = {
          "Name" = "demo1"
+     }
 }
     
 
